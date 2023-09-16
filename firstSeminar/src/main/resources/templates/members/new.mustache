@@ -1,0 +1,19 @@
+{{>layouts/header}}
+
+<form class="container" action="/members/create" method="post">
+    <!-- action은 어디로 보낼지, method는 어떤 방식으로 보낼지 -->
+    <div class="mb-3">
+        <label class="form-label">내 이름</label>
+        <!-- 입력값: myName -->
+        <input type="text" class="form-control" name="myName">
+        <!-- name은 어떤 이름으로 보낼지 -->
+    </div>
+    <div class="mb-3">
+        <label class="form-label">함께 우뚝 설 서버 파트 멤버들</label>
+        <!-- 입력값: TeamName -->
+        <textarea class="form-control" rows="3" name="teamName"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+{{>layouts/footer}}
