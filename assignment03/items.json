@@ -1,0 +1,37 @@
+[
+    {
+        "itemName": "DM23 APFSDS",
+        "itemPrice": 40000,
+        "itemQuantity": 50
+    },
+    {
+        "itemName": "DM33 APFSDS",
+        "itemPrice": 45000,
+        "itemQuantity": 10
+    },
+    {
+        "itemName": "DM63 APFSDS",
+        "itemPrice": 50000,
+        "itemQuantity": 20
+    },
+    {
+        "itemName": "DM13 HEAT-FS",
+        "itemPrice": 30000,
+        "itemQuantity": 30
+    },
+    {
+        "itemName": "M735 APFSDS",
+        "itemPrice": 35000,
+        "itemQuantity": 40
+    },
+    {
+        "itemName": "M456 HEAT-FS",
+        "itemPrice": 30000,
+        "itemQuantity": 15
+    },
+    {
+        "itemName": "M833 APFSDS",
+        "itemPrice": 42000,
+        "itemQuantity": 32
+    }
+]
