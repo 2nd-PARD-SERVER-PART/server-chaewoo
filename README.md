@@ -5,10 +5,15 @@ Server section, PARD-Y 2", PARD, 2023H2
 ### Project Metadata
 - Group: `club.pard.server` (server.pard.club)
 - Artifact
-    - Projects in seminars: In format `"seminar%02d"`
-    - Projects in assignments: In format `"assignment%02d"`
+    - Projects in seminars: In format `"seminarXX"`
+    - Projects in assignments: In format `"assignmentXX"`
+    - Additionally label alphabetically if there are multiple projects in one seminar/assignment. (e.g. `"seminarXXa"`, `"assignmentXXb"`)
 ### Classes and Packages
-(TBD)
+- Classes: `<wideClassPackageName><detailedClassPackageName>...<componentName>`
+- Packages: `<componentName>.<wideClassPackageName>.<detailedClassPackageName>...`
+- Keep all names **lowercased**
 
 ## Folder structures
-(TBD)
+- `seminars`: Spring Boot projects done on server seminars
+- `assignments`: Spring Boot projects done as server seminar assignments
+- `misc`: Miscellaeneous files used for projects
