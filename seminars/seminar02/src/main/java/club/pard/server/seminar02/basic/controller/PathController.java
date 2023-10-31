@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 
 @Slf4j
 @RestController
-public class Path {
+public class PathController {
     @GetMapping("mapping/{userId}")
     public String mappingPath(@PathVariable String userId) { // same as `@PathVariable("userId") String data`
         log.info("mapping userId = {}", userId);

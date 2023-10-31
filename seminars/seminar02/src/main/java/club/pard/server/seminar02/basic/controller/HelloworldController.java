@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @Slf4j
 @RestController
-public class HelloWorld {
+public class HelloworldController {
     @RequestMapping({"/hello-world", "/helloworld", "/hello"})
     public String helloWorld() {
         log.info("Hello-world!");

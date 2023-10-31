@@ -1,4 +1,4 @@
-package club.pard.server.seminar02.basic;
+package club.pard.server.seminar02.basic.controller;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.RequestMapping;
