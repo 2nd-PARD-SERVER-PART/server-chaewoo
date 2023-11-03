@@ -1,6 +1,12 @@
 # `Turbstructor`'s `Spring` projects in PARD server section
 Server section, PARD-Y 2", PARD, 2023H2
 
+## Progresses undergone
+- Seminar 1 (Week 3)
+- Seminar 2 (Week 5)
+- Seminar 3 (Week 6)
+- Seminar 4 (Week 9) - **Assignment in progress**
+
 ## Naming Conventions
 ### Project Metadata
 - Group: `club.pard.server` (server.pard.club)
