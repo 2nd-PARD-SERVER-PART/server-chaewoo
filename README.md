@@ -1,14 +1,30 @@
 # `Turbstructor`'s `Spring` projects in PARD server section
 Server section, PARD-Y 2", PARD, 2023H2
 
-## Progresses undergone
-- Seminar 1 (Week 3)
-- Seminar 2 (Week 5)
-- Seminar 3 (Week 6)
-- Seminar 4 (Week 9) - **Seminar Upload in progress, Assignment needs additional explanation**
-- Seminar 5 (week 10) - **Seminar Upload in progress, Assignment needs to be modified**
+## Folder structures and Progresses undergone
+- [`seminars`](./seminars): `Spring Boot` projects done on server seminars
 
-## Naming Conventions
+| Folder Name | Description | Status |
+| :--- | :--- | ---: |
+| [`seminar01`](./seminars/seminar01) | @ Week 3: **Spring Boot introduction**, **`Controller` / `Model`(Data Transfer Object(DTO))** introduction | done |
+| [`seminar02`](./seminars/seminar02) | (Week 5): **`CRUD`** implementation (*w/o* Database) | done |
+| [`seminar03`](./seminars/seminar03) | (Week 6): **Database** introduction | done |
+| ~~[`seminar04`](./seminars/seminar04)~~ | (Week 9): Database intensed: **relations** between database entities/tables, **`Swagger`** introduction | not uploaded |
+| ~~[`seminar05`](./seminars/seminar05)~~ | (week 10): **Authentication / Authorization** introduction | not uploaded |
+
+- [`assignments`](./assignments): Spring Boot projects done as server seminar assignments
+
+| Folder Name | Description | Status |
+| :--- | :--- | ---: |
+| [`assignment01`](./assignments/assignment01) | 'sending' `model`` data to `view` | done |
+| [`assignment02`](./assignments/assignment02) | using `Postman`, practicing `CRUD` | done |
+| [`assignment03`](./assignments/assignment03) | adding **validations** on fields of `entity`, adding **custom** JPA queries | done |
+| [`assignment04`](./assignments/assignment04) | Implementing **custom project** with 2+ `entities` **that has relations** | done, but requires more *explanation* on `README.md` (w/ screenshots) |
+| [`assignment05`](./assignments/assignment05) | Revising `assignment04` by adding **authentication / authorization** | done, but needs additional *revision* |
+
+- [`misc`](./misc): Miscellaeneous files used for projects
+
+## Naming Conventions used inside
 ### Project Metadata
 - Group: `club.pard.server` (server.pard.club)
 - Artifact
@@ -21,8 +37,3 @@ Server section, PARD-Y 2", PARD, 2023H2
 - Classes: `<entityName>...<componentName>`
 - Packages: `<componentName>.<wideClassPackageName>.<detailedClassPackageName>...`
 - Keep all package names **lowercased**, all class names **camelcased**
-
-## Folder structures
-- `seminars`: Spring Boot projects done on server seminars
-- `assignments`: Spring Boot projects done as server seminar assignments
-- `misc`: Miscellaeneous files used for projects
